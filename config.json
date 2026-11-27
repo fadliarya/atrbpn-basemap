@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "tile_url": "https://petadasar.atrbpn.go.id/?wms/{x}/{y}/{z}/2/{token}",
   "zmin": 16,
   "zmax": 21,
@@ -9,5 +9,5 @@
   "token_vars": ["bw"],
   "foto_keywords": ["foto airbone", "drone"],
   "latest_version": "1.1.3",
-  "message": "Info: foto udara ATR/BPN sementara belum bisa ditampilkan. Sejak 26 Nov 2026 situs ATR/BPN memakai CAPTCHA dan tile foto ditolak saat diakses dari QGIS. Sementara ini silakan lihat lewat browser di petadasar.atrbpn.go.id."
+  "message": "Plugin ATR BPN Basemap dihentikan atas permintaan pengelola layanan Peta Dasar ATR/BPN. Mohon uninstall plugin ini: Plugins > Manage and Install Plugins > Installed > ATR BPN Basemap > Uninstall. Terima kasih."
 }

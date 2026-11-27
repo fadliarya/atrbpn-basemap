@@ -1,5 +1,10 @@
 # ATR BPN Basemap (QGIS Plugin)
 
+> ⚠️ **Plugin ini dihentikan (27 November 2026).**
+> Atas permintaan pengelola layanan Peta Dasar ATR/BPN, plugin ini tidak lagi dikembangkan maupun didistribusikan, karena layanan tersebut diperuntukkan bagi kementerian/lembaga dan pemakaian tanpa izin resmi membebani server mereka. Mohon uninstall plugin ini dari QGIS (**Plugins > Manage and Install Plugins > Installed > ATR BPN Basemap > Uninstall**). Foto udara tetap bisa dilihat langsung di https://petadasar.atrbpn.go.id.
+>
+> **This plugin has been discontinued (27 November 2026)** at the request of the ATR/BPN Peta Dasar service operator. Please uninstall it from QGIS.
+
 **[Bahasa Indonesia](#bahasa-indonesia) | [English](#english)**
 
 Plugin QGIS untuk menampilkan dan mengekspor foto udara Peta Dasar ATR/BPN.
@@ -30,19 +35,6 @@ Plugin QGIS untuk menambahkan foto udara Peta Dasar ATR/BPN ([petadasar.atrbpn.g
 
 - QGIS 3.22 atau lebih baru (diuji pada QGIS 3.44).
 - Koneksi internet.
-
-### Instalasi
-
-Plugin ini tersedia di [repositori resmi plugin QGIS](https://plugins.qgis.org/plugins/atrbpn_basemap/) dengan status *experimental*.
-
-1. Buka QGIS, pilih menu **Plugins > Manage and Install Plugins**.
-2. Pada tab **Settings**, centang **Show also experimental plugins**, lalu klik **Reload repository**.
-3. Pada tab **All**, cari `ATR BPN Basemap`, lalu klik **Install Plugin**.
-4. Menu plugin akan muncul di **Plugins > ATR BPN Basemap**, dan ikonnya di toolbar Plugins.
-
-**Memperbarui ke versi baru:** QGIS akan memberi tahu bila ada versi baru. Buka tab **Upgradeable** di Plugin Manager, lalu klik **Upgrade Plugin**.
-
-**Alternatif: pasang dari berkas ZIP.** Unduh `atrbpn_basemap-<versi>.zip` dari halaman [Releases](https://github.com/fadliarya/atrbpn-basemap/releases) (**jangan diekstrak**), lalu di Plugin Manager pilih tab **Install from ZIP**. Unduhan "Source code (zip)" di halaman rilis bukan berkas instalasi plugin.
 
 ### Cara Pakai
 
@@ -105,19 +97,6 @@ A QGIS plugin that adds aerial imagery from the ATR/BPN Peta Dasar service ([pet
 
 - QGIS 3.22 or later (tested on QGIS 3.44).
 - Internet connection.
-
-### Installation
-
-The plugin is available in the [official QGIS plugin repository](https://plugins.qgis.org/plugins/atrbpn_basemap/) as an *experimental* plugin.
-
-1. In QGIS, open **Plugins > Manage and Install Plugins**.
-2. On the **Settings** tab, tick **Show also experimental plugins**, then click **Reload repository**.
-3. On the **All** tab, search for `ATR BPN Basemap` and click **Install Plugin**.
-4. The plugin menu appears under **Plugins > ATR BPN Basemap**, with its icon on the Plugins toolbar.
-
-**Updating to a new version:** QGIS notifies you when a new version is available. Open the **Upgradeable** tab in the Plugin Manager and click **Upgrade Plugin**.
-
-**Alternative: install from a ZIP file.** Download `atrbpn_basemap-<version>.zip` from the [Releases](https://github.com/fadliarya/atrbpn-basemap/releases) page (**do not unzip it**), then use the **Install from ZIP** tab in the Plugin Manager. The "Source code (zip)" download on the release page is not the plugin installer.
 
 ### Usage
 
